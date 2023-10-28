@@ -25,8 +25,8 @@ marcoFoto.classList.add('oculto');
 // Función para actualizar el texto del botón según el estado
 function actualizarBoton() {
 if (mostrarFoto) {
-boton.textContent = 'ocultar resto del equipo';
+boton.textContent = 'Ocultar miembros';
 } else {
-boton.textContent = 'Ver el resto del equipo';
+boton.textContent = 'Miembros';
 }
 }
