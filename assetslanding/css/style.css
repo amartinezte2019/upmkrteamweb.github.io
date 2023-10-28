@@ -854,7 +854,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.portfolio{
+    background: black;
+}
+.portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -883,7 +886,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color:black;
+  color: black;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -897,19 +901,6 @@ section {
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: black;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -920,101 +911,6 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: black;
-  font-size: 28px;
-  text-align: center;
-  background: black;
-  transition: 0.3s;
-  width: 50%;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: dodgerblue;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px black;
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
-  bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
-}
-
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px black;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: black;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1213,7 +1109,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 80px;
-  background: black;
+  background: white;
 }
 
 .contact .info-box {
@@ -1529,7 +1425,6 @@ section {
 
 .colab .pic img {
   width: 100%;
-  border-radius: 50%;
   max-width: 200px;
   height: auto;
   margin-bottom: 20px;
