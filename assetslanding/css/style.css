@@ -1554,6 +1554,7 @@ section {
 }
 
 /* CSS para el botón de más equipo */
+/* Estilos para el botón */
 .oculto {
   display: none;
 }
@@ -1564,21 +1565,20 @@ section {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: transparent; /* Fondo transparente para el botón */
+  --bs-btn-bg: transparent;
   --bs-btn-border-color: transparent;
   --bs-btn-hover-color: black;
-  --bs-btn-hover-bg:transparent; /* Fondo blanco semi-transparente al pasar el ratón */
+  --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: transparent;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: dodgerblue;
-  --bs-btn-active-bg: rgba(255, 255, 255, 0.5); /* Fondo blanco semi-transparente cuando está activo */
+  --bs-btn-active-bg: rgba(255, 255, 255, 0.5);
   --bs-btn-active-border-color: transparent;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: transparent; /* Fondo transparente para el botón deshabilitado */
+  --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: white;
-  width: 25%; /* Hace que el botón ocupe todo el ancho de su contenedor */
-  display: block; /* Convierte el botón en un elemento de bloque */
+  width: 100%; /* Ocupa todo el ancho de su contenedor */
   font-size: 24px;
   margin: 0;
   line-height: 1;
@@ -1589,3 +1589,4 @@ section {
 .btn-lg {
   color: dodgerblue;
 }
+
