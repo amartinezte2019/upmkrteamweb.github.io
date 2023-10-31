@@ -105,10 +105,11 @@ h6 {
 }
 
 .logo img {
-  width: 50px; /* Tamaño del logo, ajusta según sea necesario */
-  height: auto;
+  max-width: 100%; /* Ajusta el tamaño máximo del logotipo al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente según la proporción */
   margin-right: 30px; /* Espaciado entre el logo y el texto */
 }
+
 
 .logo h1 {
   margin: 0;
@@ -149,12 +150,12 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/* Estilos para el Navbar */
 .navbar {
   padding: 0;
   position: static;
+  margin: 0 auto; /* Centra horizontalmente el Navbar en la página */
+  height: 80px; /* Establece una altura fija o mínima para el Navbar */
 }
 
 .navbar ul {
