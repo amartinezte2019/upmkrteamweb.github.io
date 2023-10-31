@@ -155,7 +155,7 @@ h6 {
   padding: 0;
   position: static;
   margin: 0 auto; /* Centra horizontalmente el Navbar en la página */
-  height: 80px; /* Establece una altura fija o mínima para el Navbar */
+  height: 30px; /* Establece una altura fija o mínima para el Navbar */
 }
 
 .navbar ul {
