@@ -1463,6 +1463,54 @@ section {
   padding: 60px 0;
   position: relative;
 }
+.section-title h2 {
+  font-size: 32px;
+  color: dodgerblue;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.accordion-button {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  margin: auto;
+  width: 100%;
+  text-align: left;
+  color: dodgerblue; /* Títulos en dodger blue */
+}
+
+.accordion-button:not(.collapsed) {
+  background: dodgerblue;
+  color: white;
+}
+
+.accordion-collapse {
+  background-color: black; /* Fondo del body en negro */
+}
+
+.accordion-body {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+  padding: 15px;
+  color: white; /* Texto del body en blanco */
+}
+
+/* Distribución equidistante de los acordeones a lo largo del contenedor */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .proyect::before {
   content: "";
@@ -1590,4 +1638,3 @@ section {
 .btn-lg {
   color: dodgerblue;
 }
-
