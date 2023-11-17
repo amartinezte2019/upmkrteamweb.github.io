@@ -1627,7 +1627,7 @@ section {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: white;
-  width: 100%; /* Ocupa todo el ancho de su contenedor */
+  width: 50%; /* Ocupa todo el ancho de su contenedor */
   font-size: 24px;
   margin: 0;
   line-height: 1;
